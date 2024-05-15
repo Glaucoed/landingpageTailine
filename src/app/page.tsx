@@ -26,7 +26,7 @@ export default function Home() {
             }}
           />
         </div>
-        <p className="text-4xl font-bold text-white">Tailine Nails Designer</p>
+        <p className="text-4xl font-bold text-white text-center">Tailine Nails Designer</p>
         <h1 className="text-azul-medio px-10"> Alongamento de fibra • Esmaltação em Gel • Manicure • Pedicure • Spa dos pés</h1>
         <p className="text-lg px-10 lg:px-0 text-white">
           Unhas que brilham tanto quanto sua personalidade ✨
