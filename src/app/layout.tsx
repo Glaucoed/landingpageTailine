@@ -6,11 +6,16 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tai - Alongamento de Fibra, Esmaltação em Gel, Manicure & Pedicure",
-  description: "Descubra os melhores tratamentos de beleza na Tailine: alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés. Agende sua sessão agora para uma experiência luxuosa de cuidado pessoal!",
+  icons: {
+    icon: ['/favicon.ico?=v4'],
+    apple:['/apple-touch-icon.png?=v4'],
+    shortcut: ['/favicon.ico'],
+  },
   verification: {
     google: 'FTxLqbp0qDXP2wjlN97Vw2iUjGB9ES9A0xrXb2sp3xs',
-  }, 
+  },  
+  title: 'Alongamento de Fibra, Esmaltação em Gel, Manicure & Pedicure - Tailine - Santo André - SP',
+  description: 'Descubra os melhores tratamentos de beleza na Tailine: alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés. Agende sua sessão agora para uma experiência luxuosa de cuidado pessoal!', 
   openGraph: {
     images: [
       {
@@ -38,7 +43,8 @@ export const metadata: Metadata = {
     site: 'https://www.pokelababc.com.br/',
     
   },
-};
+  
+}
 
 export default function RootLayout({
   children,
