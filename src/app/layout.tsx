@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Tai - Alongamento de Fibra, Esmaltação em Gel, Manicure & Pedicure",
   description: "Descubra os melhores tratamentos de beleza na Tailine: alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés. Agende sua sessão agora para uma experiência luxuosa de cuidado pessoal!",
+  verification: {
+    google: 'dbP9vs5PxpCwBXeMv3jnxJtEse5vZ2jv9BCUeLPQpis',
+  }, 
   openGraph: {
     images: [
       {
@@ -44,6 +48,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={inter.className}>{children}</body>
+      <GoogleAnalytics gaId="G-EQGZE76J8J" />
     </html>
   );
 }
