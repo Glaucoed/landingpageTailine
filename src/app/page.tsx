@@ -28,19 +28,19 @@ export default function Home() {
         </div>
         <p className="text-4xl font-bold text-white text-center">Tailine Nails Designer</p>
         <h1 className="text-azul-medio px-10"> Alongamento de fibra • Esmaltação em Gel • Manicure • Pedicure • Spa dos pés</h1>
-        <p className="text-lg px-10 lg:px-0 text-white">
+        <h2 className="text-lg px-10 lg:px-0 text-white">
           Unhas que brilham tanto quanto sua personalidade ✨
-        </p>
+        </h2>
       </div>
 
       <div className="flex flex-col lg:w-1/2 w-full lg:px-0 px-10 mx-auto gap-2">
-        <a target="_blank" href="https://api.whatsapp.com/send/?phone=5511913512961&text=Tenho+interesse+em+agendar+um+horario&type=phone_number&app_absent=0" className="bg-[#022B3A] hover:bg-[#1F7A8C] text-[#BFDBF7] font-bold py-3 px-4 border-b-4 border-[#BFDBF7] hover:border-[#BFDBF7] rounded text-center">
+        <a title="WhatsApp" target="_blank" href="https://api.whatsapp.com/send/?phone=5511913512961&text=Tenho+interesse+em+agendar+um+horario&type=phone_number&app_absent=0" className="bg-[#022B3A] hover:bg-[#1F7A8C] text-[#BFDBF7] font-bold py-3 px-4 border-b-4 border-[#BFDBF7] hover:border-[#BFDBF7] rounded text-center">
           WhatsApp
         </a>
-        <a  target="_blank" href="https://g.co/kgs/3qe1Cde" className="bg-[#022B3A] hover:bg-[#1F7A8C] text-[#BFDBF7] font-bold py-3 px-4 border-b-4 border-[#BFDBF7] hover:border-[#BFDBF7] rounded text-center">
+        <a title="Localização" target="_blank" href="https://g.co/kgs/3qe1Cde" className="bg-[#022B3A] hover:bg-[#1F7A8C] text-[#BFDBF7] font-bold py-3 px-4 border-b-4 border-[#BFDBF7] hover:border-[#BFDBF7] rounded text-center">
           Localização
         </a>
-        <a target="_blank" href="https://www.instagram.com/tai_esverzuthenails/" className="bg-[#022B3A] hover:bg-[#1F7A8C] text-[#BFDBF7] font-bold py-3 px-4 border-b-4 border-[#BFDBF7] hover:border-[#BFDBF7] rounded text-center">
+        <a title="Instragram" target="_blank" href="https://www.instagram.com/tai_esverzuthenails/" className="bg-[#022B3A] hover:bg-[#1F7A8C] text-[#BFDBF7] font-bold py-3 px-4 border-b-4 border-[#BFDBF7] hover:border-[#BFDBF7] rounded text-center">
           Instagram
         </a>
       </div>
@@ -123,9 +123,9 @@ export default function Home() {
         </div>
       </div>
       <div className="lg:w-[600px] w-full mx-auto">
-      <div className="font-bold text-2xl text-center text-azul-escuro pt-10 pb-5 uppercase">
+      <h3 className="font-bold text-2xl text-center text-azul-escuro pt-10 pb-5 uppercase">
           Meus Trabalhos
-        </div>
+        </h3>
       <Swiper
         effect={'flip'}
         loop={true}

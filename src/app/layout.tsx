@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tailine - Alongamento de fibra • Esmaltação em Gel • Manicure • Pedicure • Spa dos pés",
-  description: "Encontre os melhores serviços de alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés na Tailine. Aprecie uma experiência de beleza e cuidado excepcionalmente luxuosa. Agende sua sessão agora!",
+  title: "Tai - Alongamento de Fibra, Esmaltação em Gel, Manicure & Pedicure",
+  description: "Descubra os melhores tratamentos de beleza na Tailine: alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés. Agende sua sessão agora para uma experiência luxuosa de cuidado pessoal!",
   openGraph: {
     images: [
       {
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     title: 'Tailine - Alongamento de fibra • Esmaltação em Gel • Manicure • Pedicure • Spa dos pés',
     url: 'https://www.tailine.online/',
     siteName: 'Tailine - Alongamento de fibra • Esmaltação em Gel • Manicure • Pedicure • Spa dos pés',
-    description: 'Encontre os melhores serviços de alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés na Tailine. Aprecie uma experiência de beleza e cuidado excepcionalmente luxuosa. Agende sua sessão agora!',
+    description: 'Descubra os melhores tratamentos de beleza na Tailine: alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés. Agende sua sessão agora para uma experiência luxuosa de cuidado pessoal!',
     type: 'website',
 
   },
   twitter: {
     card: 'summary',
     title: 'Tailine - Alongamento de fibra • Esmaltação em Gel • Manicure • Pedicure • Spa dos pés',
-    description: 'Encontre os melhores serviços de alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés na Tailine. Aprecie uma experiência de beleza e cuidado excepcionalmente luxuosa. Agende sua sessão agora!',
+    description: 'Descubra os melhores tratamentos de beleza na Tailine: alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés. Agende sua sessão agora para uma experiência luxuosa de cuidado pessoal!',
     site: 'https://www.pokelababc.com.br/',
     
   },
