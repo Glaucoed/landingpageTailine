@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Tai - Alongamento de Fibra, Esmaltação em Gel, Manicure & Pedicure",
   description: "Descubra os melhores tratamentos de beleza na Tailine: alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés. Agende sua sessão agora para uma experiência luxuosa de cuidado pessoal!",
   verification: {
-    google: 'dbP9vs5PxpCwBXeMv3jnxJtEse5vZ2jv9BCUeLPQpis',
+    google: 'nKq_sl7ucwd3YlGDN3rH38CV8IXBBSg3XzOju_y9b4',
   }, 
   openGraph: {
     images: [
