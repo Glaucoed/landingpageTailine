@@ -11,11 +11,11 @@ export const metadata: Metadata = {
     apple:['/apple-touch-icon.png?=v4'],
     shortcut: ['/favicon.ico'],
   },
-  verification: {
-    google: 'FTxLqbp0qDXP2wjlN97Vw2iUjGB9ES9A0xrXb2sp3xs',
-  },  
   title: 'Alongamento de Fibra, Esmaltação em Gel, Manicure & Pedicure - Tailine - Santo André - SP',
   description: 'Descubra os melhores tratamentos de beleza na Tailine: alongamento de fibra, esmaltação em gel, manicure, pedicure e spa dos pés. Agende sua sessão agora para uma experiência luxuosa de cuidado pessoal!', 
+  verification: {
+    google: '-nKq_sl7ucwd3YlGDN3rH38CV8IXBBSg3XzOju_y9b4',
+  },
   openGraph: {
     images: [
       {
