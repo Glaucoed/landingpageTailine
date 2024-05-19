@@ -7,25 +7,13 @@ import 'swiper/css/effect-flip';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import ImagemLoader from "../components/ImageLazyLoading";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col w-full pt-20 gap-10">
       <div className="flex flex-col justify-center items-center gap-4">
-        <div>
-          <Image
-            src="/atendimento2.png"
-            alt="atendimento"
-            width={280}
-            height={280}
-            className="lg:max-h-[280px] lg:max-w-[280px] max-h-[200px] max-w-[200px] rounded-full "
-            style={{
-              borderRadius: "50%",
-              boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.1)",
-              objectFit: "cover",
-            }}
-          />
-        </div>
+        < ImagemLoader />
         <p className="text-4xl font-bold text-white text-center">Tailine Nails Designer</p>
         <h1 className="text-azul-medio px-10"> Alongamento de fibra • Esmaltação em Gel • Manicure • Pedicure • Spa dos pés</h1>
         <h2 className="text-lg px-10 lg:px-0 text-white">
