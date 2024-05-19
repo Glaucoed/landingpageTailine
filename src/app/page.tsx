@@ -157,8 +157,14 @@ export default function Home() {
 
       </Swiper>
       </div>
+      <div>
+
+      <div className="bg-azul-escuro flex justify-center items-center py-2 gap-2 text-azul-claro">
+        Rua Barra Mansa, 18 - Sala 04 - Vila Bela Vista - Santo André - SP - Próximo ao comercio da Rua Carijós
+      </div>
       <div className="bg-azul-escuro flex justify-center items-center py-2 gap-2 text-azul-claro">
         Desenvolvido por <a className="font-bold text-white" target="_blank" href="http://www.glaucoed.com ">Glauco</a>
+      </div>
       </div>
     </main>
   );
