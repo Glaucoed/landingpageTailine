@@ -7,6 +7,16 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ImagemLoader from "../components/ImageLazyLoading";
+import manicure1 from "../../public/img1.jpg";
+import manicure2 from "../../public/img2.jpg";
+import manicure4 from "../../public/img4.jpg";
+import manicure5 from "../../public/img5.jpg";
+import manicure6 from "../../public/img6.jpg";
+import manicure7 from "../../public/img7.jpg";
+import manicure8 from "../../public/img8.jpg";
+import manicure9 from "../../public/img9.jpg";
+import manicure10 from "../../public/img10.jpg";
+import manicure11 from "../../public/img11.jpg";
 
 export default function Home() {
   return (
@@ -142,135 +152,115 @@ export default function Home() {
           modules={[EffectFlip, Pagination, Navigation]}
           className="!bg-white !rounded !p-10 !mx-10"
         >
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img1.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img1.jpg" />
-              <Image
-                src="/img1.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure1}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img2.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img2.jpg" />
-              <Image
-                src="/img2.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure2}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img4.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img4.jpg" />
-              <Image
-                src="/img4.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure4}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img5.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img5.jpg" />
-              <Image
-                src="/img5.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure5}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img6.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img6.jpg" />
-              <Image
-                src="/img6.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure6}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img7.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img7.jpg" />
-              <Image
-                src="/img7.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure7}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img8.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img8.jpg" />
-              <Image
-                src="/img8.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure8}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img9.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img9.jpg" />
-              <Image
-                src="/img9.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure9}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img10.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img10.jpg" />
-              <Image
-                src="/img10.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure10}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
-          <SwiperSlide className="lg:max-w-[600px]">
-            <picture>
-              <source media="(max-width: 768px)" srcSet="/img11.jpg" />
-              <source media="(max-width: 1200px)" srcSet="/img11.jpg" />
-              <Image
-                src="/img11.jpg"
-                alt="manicure"
-                width={600}
-                height={600}
-                layout="responsive"
-              />
-            </picture>
+          <SwiperSlide className="lg:max-w-[600px] max-w-full">
+            <Image
+              src={manicure11}
+              alt="manicure"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </SwiperSlide>
         </Swiper>
       </div>
