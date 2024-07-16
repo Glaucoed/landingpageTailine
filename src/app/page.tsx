@@ -49,9 +49,9 @@ export default function Home() {
               Alongamento de Fibra de Vidro método naturalidade
             </h3>
             <div className="flex gap-3 mt-2 items-center ">
-              <span className="text-red-600 line-through">R$ 90,00</span>
+              <span className="text-red-600 line-through">R$ 180,00</span>
               <span className="font-bold text-lg text-azul-escuro">
-                R$ 60,00 (Modelo)
+                R$ 140,00
               </span>
             </div>
           </div>
@@ -67,9 +67,9 @@ export default function Home() {
               Esmaltação em Gel
             </h3>
             <div className="flex gap-3 mt-2 items-center ">
-              <span className="text-red-600 line-through">R$ 85,00</span>
+              <span className="text-red-600 line-through">R$ 120,00</span>
               <span className="font-bold text-lg text-azul-escuro">
-                R$ 45,00
+                R$ 80,00
               </span>
             </div>
           </div>
