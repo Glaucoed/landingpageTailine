@@ -40,7 +40,7 @@ export default function Home() {
           <div className="mx-auto bg-white p-4 rounded">
             <Image
               className="rounded  bg-cover"
-              src="/image1.jpg"
+              src="/alongamento.jpg"
               alt="manicure"
               width={400}
               height={400}
@@ -49,9 +49,9 @@ export default function Home() {
               Alongamento de Fibra de Vidro método naturalidade
             </h3>
             <div className="flex gap-3 mt-2 items-center ">
-              <span className="text-red-600 line-through">R$ 90,00</span>
+              {/* <span className="text-red-600 line-through">R$ 90,00</span> */}
               <span className="font-bold text-lg text-azul-escuro">
-                R$ 60,00 (Modelo)
+                R$ 140,00
               </span>
             </div>
           </div>
@@ -67,9 +67,9 @@ export default function Home() {
               Esmaltação em Gel
             </h3>
             <div className="flex gap-3 mt-2 items-center ">
-              <span className="text-red-600 line-through">R$ 85,00</span>
+              {/* <span className="text-red-600 line-through">R$ 85,00</span> */}
               <span className="font-bold text-lg text-azul-escuro">
-                R$ 45,00
+                R$ 80,00
               </span>
             </div>
           </div>
@@ -154,12 +154,15 @@ export default function Home() {
         <SwiperSlide className="lg:max-w-[600px]">
           <Image src="/img11.jpg" alt="manicure" width={600} height={600} />
         </SwiperSlide>
+        <SwiperSlide className="lg:max-w-[600px]">
+          <Image src="/img12.jpg" alt="manicure" width={600} height={600} />
+        </SwiperSlide>
 
       </Swiper>
       </div>
       <div>
 
-      <div className="bg-azul-escuro flex justify-center items-center py-2 gap-2 text-azul-claro">
+      <div className="bg-azul-escuro flex justify-center items-center py-2 gap-2 text-azul-claro lg:px-0 px-5 text-justify">
         Rua Barra Mansa, 18 - Sala 04 - Vila Bela Vista - Santo André - SP - Próximo ao comercio da Rua Carijós
       </div>
       <div className="bg-azul-escuro flex justify-center items-center py-2 gap-2 text-azul-claro">
