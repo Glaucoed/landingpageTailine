@@ -28,7 +28,7 @@ export default function Home() {
         <a title="Localização" target="_blank" href="https://g.co/kgs/3qe1Cde" className="bg-[#022B3A] hover:bg-[#1F7A8C] text-[#BFDBF7] font-bold py-3 px-4 border-b-4 border-[#BFDBF7] hover:border-[#BFDBF7] rounded text-center">
           Localização
         </a>
-        <a title="Instragram" target="_blank" href="https://www.instagram.com/tai_esverzuthenails/" className="bg-[#022B3A] hover:bg-[#1F7A8C] text-[#BFDBF7] font-bold py-3 px-4 border-b-4 border-[#BFDBF7] hover:border-[#BFDBF7] rounded text-center">
+        <a title="Instragram" target="_blank" href="https://www.instagram.com/taiesverzuthenails_/" className="bg-[#022B3A] hover:bg-[#1F7A8C] text-[#BFDBF7] font-bold py-3 px-4 border-b-4 border-[#BFDBF7] hover:border-[#BFDBF7] rounded text-center">
           Instagram
         </a>
       </div>
@@ -49,7 +49,6 @@ export default function Home() {
               Alongamento de Fibra de Vidro método naturalidade
             </h3>
             <div className="flex gap-3 mt-2 items-center ">
-              {/* <span className="text-red-600 line-through">R$ 90,00</span> */}
               <span className="font-bold text-lg text-azul-escuro">
                 R$ 140,00
               </span>
@@ -67,7 +66,6 @@ export default function Home() {
               Esmaltação em Gel
             </h3>
             <div className="flex gap-3 mt-2 items-center ">
-              {/* <span className="text-red-600 line-through">R$ 85,00</span> */}
               <span className="font-bold text-lg text-azul-escuro">
                 R$ 80,00
               </span>
